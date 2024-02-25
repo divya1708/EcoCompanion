@@ -1,1 +1,1 @@
-Run using "chainlit run l.py --port 8080" command
+Run using "chainlit run main.py --port 8080" command
