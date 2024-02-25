@@ -5,15 +5,15 @@ from openai import OpenAI
 from sinch import Client
 
 client = OpenAI(
-    api_key="eyJvcmciOiI2NGZiMTNmZTQ5ZmY1YjAwMDE1NGUxMGMiLCJpZCI6ImNhZTQ2MzAyMWI2MDRmMmJiNDVmOGNkOGQ1MTIzNWE0IiwiaCI6Im11cm11cjEyOCJ9",
+    api_key="<api-key>",
     base_url="https://api-alpha.julep.ai/v1"
 )
 
 # Configure SinchSMS
 sinch_client = Client(
-    key_id="3f3507b7-7e48-4038-bbfe-a2640896fa09",
-    key_secret="nhKv9ymkxI~Czp4ScdhsgwlQo_",
-    project_id="5d90dc32-8a83-4a11-b806-70fe4ccdae6a"
+    key_id="",
+    key_secret="",
+    project_id=""
 )
 
 class SpaceExplorerChat:
